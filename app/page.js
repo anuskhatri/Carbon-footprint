@@ -17,7 +17,7 @@ export default function Home() {
       return;
     }
     try {
-      const { data } = await axios.get(`http://localhost:3000/api/get-oauth-token`);
+      const { data } = await axios.get(`http://localhost:3000/api/chat-bot`);
       console.log(data);
     } catch (error) {
       console.log(error);
